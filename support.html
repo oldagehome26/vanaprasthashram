@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Support Us | Vanaprasthashram</title>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg sticky-top">
+
+<div class="container">
+
+
+<a class="navbar-brand" href="index.html">
+
+<img src="logo.jpeg" width="50">
+
+Vanaprasthashram
+
+</a>
+
+
+<button class="navbar-toggler"
+data-bs-toggle="collapse"
+data-bs-target="#navbar">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+
+
+<div class="collapse navbar-collapse" id="navbar">
+
+
+<ul class="navbar-nav ms-auto">
+
+
+<li class="nav-item">
+<a class="nav-link" href="index.html">
+Home
+</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="about.html">
+About Us
+</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="gallery.html">
+Gallery
+</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="events.html">
+Events
+</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link active" href="support.html">
+Support Us
+</a>
+</li>
+
+
+<li class="nav-item">
+<a class="nav-link" href="contact.html">
+Contact
+</a>
+</li>
+
+
+</ul>
+
+
+</div>
+
+
+</div>
+
+</nav>
+
+
+
+
+
+
+<!-- HEADER -->
+
+
+<section class="hero" style="min-height:45vh;">
+
+
+<div class="container">
+
+
+<h1>
+
+Support <span class="highlight">Our Mission</span>
+
+</h1>
+
+
+<p class="fs-5 mt-3">
+
+Your support can bring care, happiness and dignity to senior citizens.
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- SUPPORT CARDS -->
+
+
+<section>
+
+
+<div class="container">
+<div class="support-grid">
+
+    <!-- Admission -->
+    <div class="support-card" onclick="openForm('admission')">
+        <i class="bi bi-house-heart"></i>
+        <h3>Admission Enquiry</h3>
+        <p>Looking for a safe and caring home for yourself or your loved one?</p>
+        <button class="support-btn">Apply Now</button>
+    </div>
+
+    <!-- Sponsor -->
+    <div class="support-card" onclick="openForm('sponsor')">
+        <i class="bi bi-heart-fill"></i>
+        <h3>Sponsor a Resident</h3>
+        <p>Provide long-term support and care for a senior citizen.</p>
+        <button class="support-btn">Sponsor Now</button>
+    </div>
+
+    <!-- Volunteer -->
+    <div class="support-card" onclick="openForm('volunteer')">
+        <i class="bi bi-people-fill"></i>
+        <h3>Volunteer</h3>
+        <p>Spend time with residents and contribute to our mission.</p>
+        <button class="support-btn">Register</button>
+    </div>
+
+    <!-- Donate -->
+    <div class="support-card" onclick="openForm('donate')">
+        <i class="bi bi-gift-fill"></i>
+        <h3>Donate</h3>
+        <p>Support residents with food, healthcare and daily needs.</p>
+        <button class="support-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#donateModal">
+    Donate
+</button>
+    </div>
+
+    <!-- Donate Essentials -->
+    <div class="support-card"
+         data-bs-toggle="modal"
+         data-bs-target="#essentialsModal">
+
+        <i class="bi bi-box2-heart-fill"></i>
+
+        <h3>Donate Essentials</h3>
+
+        <p>
+            Help our residents by donating food, clothes, medicines,
+            furniture, wheelchairs and other daily essentials.
+        </p>
+
+        <button class="support-btn">
+            Donate Items
+        </button>
+
+    </div>
+
+</div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+<!-- ADMISSION FORM -->
+
+
+<div id="admission" class="form-popup">
+
+
+<div class="form-box">
+
+
+<span class="close" onclick="closeForm('admission')">
+
+&times;
+
+</span>
+
+
+
+<h1>
+Admission Enquiry Form
+</h1>
+
+
+<p class="subtitle">
+
+Please provide the following information. Our team will review your application and contact you regarding admission procedures.
+
+</p>
+
+
+
+ <form action="https://formspree.io/f/meebozqv" method="POST">
+
+
+
+<div class="form-grid">
+
+
+
+<div class="form-group">
+
+<label>
+Full Name
+</label>
+
+<input type="text"
+name="full name"
+ placeholder="Enter your full name">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Age
+</label>
+
+<input type="number"
+name="age"
+ placeholder="Enter age">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Gender
+</label>
+
+<select>
+
+<option>Select Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+<option>Other</option>
+
+</select>
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Phone Number
+</label>
+
+<input type="text"
+ name="phone number"
+placeholder="Enter phone number">
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+<label>
+Residential Address
+</label>
+
+
+<textarea 
+name="address" 
+placeholder="Enter complete address"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Emergency Contact Name
+</label>
+
+
+<input type="text"
+name="name"
+ placeholder="Contact person's name">
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Emergency Contact Number
+</label>
+
+
+<input type="text" 
+name="contact number"
+placeholder="Contact number">
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Relationship with Applicant
+</label>
+
+
+<input type="text"
+name="relationship"
+ placeholder="Relationship">
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Medical Condition
+</label>
+
+
+<input type="text"
+name="medical condion"
+ placeholder="Mention medical conditions">
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Current Medication
+</label>
+
+
+<textarea 
+name="current medicines"
+placeholder="Mention current medicines"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Reason for Seeking Admission
+</label>
+
+
+<textarea
+name="reason for admission"
+ placeholder="Explain reason for admission"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Special Care Requirements
+</label>
+
+
+<textarea 
+name="special requirements"
+placeholder="Any special requirements"></textarea>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<button type="submit" class="form-submit">
+    Submit Admission Request
+</button>
+
+</form>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- SPONSOR FORM -->
+
+
+<div id="sponsor" class="form-popup">
+
+
+<div class="form-box">
+
+
+<span class="close" onclick="closeForm('sponsor')">
+
+&times;
+
+</span>
+
+
+
+
+<h1>
+
+Sponsor a Resident
+
+</h1>
+
+
+
+<p class="subtitle">
+
+Your support can provide care, nutrition, healthcare and a better quality of life for our residents.
+
+</p>
+
+
+
+
+<form action="https://formspree.io/f/xlgydlwn" method="POST">
+
+
+<div class="form-grid">
+
+
+
+<div class="form-group">
+
+<label>
+Full Name
+</label>
+
+<input type="text"
+name="name"
+placeholder="Enter your name">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Email Address
+</label>
+
+<input type="email"
+name="email
+" placeholder="Enter email">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Phone Number
+</label>
+
+<input type="text"
+name="number"
+ placeholder="Enter phone number">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+City
+</label>
+
+<input type="text"
+name="city"
+ placeholder="Enter city">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Sponsorship Type
+</label>
+
+
+<select>
+
+
+<option>Select Type</option>
+
+<option>Monthly Support</option>
+
+<option>Medical Support</option>
+
+<option>Food Support</option>
+
+<option>General Donation</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+
+<label>
+Sponsorship Amount (₹)
+</label>
+
+
+<input type="number"
+name="amount"
+ placeholder="Enter amount">
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Message
+</label>
+
+
+<textarea
+name="message"
+ placeholder="Write your message"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Would you like updates about the resident?
+</label>
+
+
+
+<select>
+
+
+<option>Select</option>
+
+<option>Yes</option>
+
+<option>No</option>
+
+
+</select>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<button type="submit" class="form-submit">
+    Submit Sponsor Request
+</button>
+</form>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- VOLUNTEER FORM -->
+
+
+<div id="volunteer" class="form-popup">
+
+
+<div class="form-box">
+
+
+<span class="close" onclick="closeForm('volunteer')">
+
+&times;
+
+</span>
+
+
+
+
+<h1>
+
+Volunteer Registration
+
+</h1>
+
+
+
+<p class="subtitle">
+
+Join us in bringing care, companionship and happiness to senior citizens. Your time and skills can make a meaningful difference.
+
+</p>
+
+
+
+
+<form action="https://formspree.io/f/mzdlzvja" method="POST">
+
+
+
+<div class="form-grid">
+
+
+
+<div class="form-group">
+
+<label>
+Full Name
+</label>
+
+<input type="text"
+name="name"
+ placeholder="Enter your full name">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Email Address
+</label>
+
+<input type="email"
+name="email"
+ placeholder="Enter email">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Phone Number
+</label>
+
+<input type="text"
+name="number"
+ placeholder="Enter phone number">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Age
+</label>
+
+<input type="number"
+name="age"
+ placeholder="Enter age">
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Gender
+</label>
+
+
+<select>
+
+<option>Select Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+<option>Other</option>
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Occupation
+</label>
+
+
+<input type="text"
+name="occupation"
+ placeholder="Enter occupation">
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Address
+</label>
+
+
+<textarea
+name="address"
+ placeholder="Enter your address"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Availability
+</label>
+
+
+<select>
+
+
+<option>Select Availability</option>
+
+<option>Weekdays</option>
+
+<option>Weekends</option>
+
+<option>Flexible</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group">
+
+<label>
+Preferred Area of Contribution
+</label>
+
+
+<select>
+
+
+<option>Select Area</option>
+
+<option>Spending time with residents</option>
+
+<option>Event Assistance</option>
+
+<option>Healthcare Support</option>
+
+<option>Teaching Activities</option>
+
+
+</select>
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Skills / Experience
+</label>
+
+
+<textarea
+name="skills or experience"
+ placeholder="Mention your skills or experience"></textarea>
+
+
+</div>
+
+
+
+
+
+<div class="form-group full">
+
+
+<label>
+Why do you want to volunteer?
+</label>
+
+
+<textarea
+name="motivation"
+ placeholder="Tell us about your motivation"></textarea>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+<button type="submit" class="form-submit">
+    Submit Volunteer Request
+</button>
+
+
+</form>
+
+
+
+</div>
+
+
+</div>
+
+<!-- Donate Modal -->
+
+<div class="modal fade" id="donateModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+
+        <div class="modal-content rounded-4">
+
+            <div class="modal-header border-0">
+
+                <h2 class="modal-title text-success fw-bold">
+                     Make a Donation
+                </h2>
+
+                <button type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"></button>
+
+            </div>
+
+            <div class="modal-body px-4 pb-4">
+
+                <p class="text-center text-muted mb-4">
+
+                    Your generous contribution helps us provide food,
+                    shelter, healthcare and a loving environment for our
+                    senior citizens.
+
+                </p>
+
+                <div class="row g-4">
+
+                    <!-- QR CODE -->
+
+                    <div class="col-md-6">
+
+                        <div class="border rounded-4 p-4 text-center h-100">
+
+                            <h4 class="mb-3">Scan & Donate</h4>
+
+                            <img src="images/qr-code.png"
+                                 class="img-fluid rounded mb-3"
+                                 style="max-width:220px;"
+                                 alt="QR Code">
+
+                            <p class="mb-0">
+                                Scan using any UPI app such as
+                                Google Pay, PhonePe, Paytm or BHIM.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- BANK DETAILS -->
+
+                    <div class="col-md-6">
+
+                        <div class="border rounded-4 p-4 h-100">
+
+                            <h4 class="text-center mb-3">
+                                Bank Details
+                            </h4>
+
+                            <p><strong>Account Name:</strong><br>
+                            Nivrutta Seva Sangh</p>
+
+                            <p><strong>Bank:</strong><br>
+                             Punjab National Bank </p>
+
+                            <p><strong>Account Number:</strong><br>
+                            6515000100040219</p>
+
+                            <p><strong>IFSC Code:</strong><br>
+                             PUNB0651500</p>
+
+                            <p><strong>Branch:</strong><br>
+                            Talegaon Dabhade</p>
+
+                            <p><strong>UPI ID:</strong><br>
+                            vanaprasthashram@upi</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="alert alert-success mt-4">
+
+                    <h5 class="mb-2">
+                        Payment Confirmation
+                    </h5>
+
+                    <p class="mb-2">
+                        After making your donation, kindly send your
+                        <strong>transaction ID or payment screenshot</strong>
+                        so that we can acknowledge your contribution.
+                    </p>
+
+                    <p class="mb-1">
+                        📧 <strong>Email:</strong> vanaprasthashramoldagehome@gmail.com                 
+   </p>
+
+                    <p class="mb-0">
+                        📱 <strong>WhatsApp:</strong> +91  9960253835               
+     </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- DONATE ESSENTIALS FORM-->
+
+<div class="modal fade" id="essentialsModal" tabindex="-1">
+
+<div class="modal-dialog modal-xl modal-dialog-scrollable">
+
+<div class="modal-content rounded-4">
+
+<div class="modal-header border-0">
+
+<h2 class="modal-title fw-bold text-success">
+
+Donate Essential Items
+
+</h2>
+
+<button class="btn-close"
+data-bs-dismiss="modal"></button>
+
+</div>
+
+<div class="modal-body px-4 pb-4">
+
+<p class="text-center text-muted mb-4">
+
+Your contribution of essential items helps us provide a comfortable and dignified life to our senior residents.
+
+</p>
+
+<form action="https://formspree.io/f/xkodonpk" method="POST">
+
+<div class="row">
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Full Name</label>
+
+<input type="text"
+class="form-control"
+name="Full Name"
+required>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Email Address</label>
+
+<input type="email"
+class="form-control"
+name="Email">
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Phone Number</label>
+
+<input type="tel"
+class="form-control"
+name="Phone Number"
+required>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">City</label>
+
+<input type="text"
+class="form-control"
+name="City">
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Type of Donation</label>
+
+<select class="form-select"
+name="Donation Type">
+
+<option selected disabled>Select Item</option>
+
+<option>Groceries</option>
+
+<option>Cooked Food</option>
+
+<option>Fruits & Vegetables</option>
+
+<option>Clothes</option>
+
+<option>Blankets</option>
+
+<option>Bedsheets</option>
+
+<option>Wheelchair</option>
+
+<option>Walking Stick</option>
+
+<option>Medicines</option>
+
+<option>Medical Equipment</option>
+
+<option>Furniture</option>
+
+<option>Plastic Chairs</option>
+
+<option>Tables</option>
+
+<option>Mattresses</option>
+
+<option>Kitchen Supplies</option>
+
+<option>Hygiene Products</option>
+
+<option>Books</option>
+
+<option>Other</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Quantity</label>
+
+<input type="text"
+class="form-control"
+name="Quantity"
+placeholder="Example: 10 Chairs">
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Condition</label>
+
+<select class="form-select"
+name="Condition">
+
+<option>New</option>
+
+<option>Gently Used</option>
+
+<option>Excellent</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-3">
+
+<label class="form-label">Donation Method</label>
+
+<select class="form-select"
+name="Donation Method">
+
+<option>I will deliver the items</option>
+
+<option>Please arrange pickup</option>
+
+<option>Need to discuss</option>
+
+</select>
+
+</div>
+
+<div class="col-md-12 mb-3">
+
+<label class="form-label">Preferred Donation Date</label>
+
+<input type="date"
+class="form-control"
+name="Donation Date">
+
+</div>
+
+<div class="col-md-12 mb-3">
+
+<label class="form-label">
+
+Additional Details
+
+</label>
+
+<textarea
+class="form-control"
+rows="5"
+name="Additional Details"
+placeholder="Example: I would like to donate 20 plastic chairs and 5 folding tables."></textarea>
+
+</div>
+
+<div class="text-center mt-4">
+
+<button type="submit"
+class="btn btn-success btn-lg px-5">
+
+Submit Donation Request
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+
+<footer style="background:#14532d;color:white;text-align:center;padding:25px;margin-top:60px;">
+
+
+<p>
+
+© 2026 Vanaprasthashram. All Rights Reserved.
+
+</p>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+
+
+<script>
+
+
+function openForm(id)
+
+{
+
+document.getElementById(id).style.display="block";
+
+document.body.style.overflow="hidden";
+
+}
+
+
+
+function closeForm(id)
+
+{
+
+document.getElementById(id).style.display="none";
+
+document.body.style.overflow="auto";
+
+}
+
+
+
+
+</script>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
